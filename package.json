@@ -1,10 +1,35 @@
 {
   "name": "code-churn",
   "version": "1.0.0",
-  "description": "CLI to visualize git code churn and surface file-level code smells",
+  "description": "CLI to visualize git file and function churn — surface God Objects, oversized controllers, and poor separation of concerns",
   "type": "module",
   "bin": {
     "code-churn": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "git",
+    "churn",
+    "code-quality",
+    "code-smells",
+    "refactoring",
+    "cli",
+    "static-analysis",
+    "metrics",
+    "god-object",
+    "technical-debt"
+  ],
+  "author": "Esteve Segura",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/girlazo/code-churn.git"
+  },
+  "homepage": "https://github.com/girlazo/code-churn#readme",
+  "bugs": {
+    "url": "https://github.com/girlazo/code-churn/issues"
   },
   "engines": {
     "node": ">=18"
