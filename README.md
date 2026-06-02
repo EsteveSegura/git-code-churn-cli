@@ -7,13 +7,13 @@ A zero-config CLI that reads your git history and shows which files and function
 ## Install
 
 ```bash
-npm install -g git-git-code-churn-cli-cli
+npm install -g git-code-churn-cli
 ```
 
 Or run without installing:
 
 ```bash
-npx git-git-code-churn-cli-cli ./my-repo
+npx git-code-churn-cli ./my-repo
 ```
 
 ## Usage
