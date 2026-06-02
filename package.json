@@ -1,0 +1,12 @@
+{
+  "name": "code-churn",
+  "version": "1.0.0",
+  "description": "CLI to visualize git code churn and surface file-level code smells",
+  "type": "module",
+  "bin": {
+    "code-churn": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
