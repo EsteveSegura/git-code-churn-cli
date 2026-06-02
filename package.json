@@ -1,5 +1,5 @@
 {
-  "name": "code-churn",
+  "name": "git-code-churn-cli",
   "version": "1.0.0",
   "description": "CLI to visualize git file and function churn — surface God Objects, oversized controllers, and poor separation of concerns",
   "type": "module",
@@ -7,7 +7,8 @@
     "code-churn": "./index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "src/"
   ],
   "keywords": [
     "git",
@@ -25,11 +26,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/girlazo/code-churn.git"
+    "url": "https://github.com/EsteveSegura/git-code-churn-cli.git"
   },
-  "homepage": "https://github.com/girlazo/code-churn#readme",
+  "homepage": "https://github.com/EsteveSegura/git-code-churn-cli#readme",
   "bugs": {
-    "url": "https://github.com/girlazo/code-churn/issues"
+    "url": "https://github.com/EsteveSegura/git-code-churn-cli/issues"
   },
   "engines": {
     "node": ">=18"

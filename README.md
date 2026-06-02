@@ -19,13 +19,13 @@ Commits analyzed: 782  |  Period: 2020-07-29 → 2026-05-29
 ## Install
 
 ```bash
-npm install -g code-churn
+npm install -g git-code-churn-cli
 ```
 
 Or run without installing:
 
 ```bash
-npx code-churn ./my-repo
+npx git-code-churn-cli ./my-repo
 ```
 
 ## Usage
