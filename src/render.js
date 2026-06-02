@@ -16,10 +16,10 @@ export const C = {
 export const col = (code, str) => `${code}${str}${C.reset}`;
 
 export const HELP = `
-${col(C.bold + C.cyan, 'code-churn')} — visualize git file churn to surface code smells
+${col(C.bold + C.cyan, 'git-code-churn-cli')} — visualize git file churn to surface code smells
 
 ${col(C.bold, 'Usage:')}
-  code-churn <repo-path> [options]
+  git-code-churn-cli <repo-path> [options]
 
 ${col(C.bold, 'Options:')}
   --top <n>        Show top N files (or files to scan with --functions)  (default: 20)
@@ -33,10 +33,10 @@ ${col(C.bold, 'Options:')}
   -h, --help       Show this help
 
 ${col(C.bold, 'Examples:')}
-  code-churn ./my-repo
-  code-churn ./my-repo --top 10 --since 2024-01-01 --ext .ts
-  code-churn ./my-repo --path src/ --functions
-  code-churn ./my-repo --functions --top 3 --json
+  git-code-churn-cli ./my-repo
+  git-code-churn-cli ./my-repo --top 10 --since 2024-01-01 --ext .ts
+  git-code-churn-cli ./my-repo --path src/ --functions
+  git-code-churn-cli ./my-repo --functions --top 3 --json
 `;
 
 const BAR_WIDTH = 20;

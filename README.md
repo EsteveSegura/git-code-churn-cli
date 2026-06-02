@@ -1,4 +1,4 @@
-# code-churn
+# git-code-churn-cli
 
 A zero-config CLI that reads your git history and shows which files and functions change most often — a reliable proxy for code smells like God Objects, oversized controllers, and poor separation of concerns.
 
@@ -19,19 +19,19 @@ Commits analyzed: 782  |  Period: 2020-07-29 → 2026-05-29
 ## Install
 
 ```bash
-npm install -g git-code-churn-cli
+npm install -g git-git-code-churn-cli-cli
 ```
 
 Or run without installing:
 
 ```bash
-npx git-code-churn-cli ./my-repo
+npx git-git-code-churn-cli-cli ./my-repo
 ```
 
 ## Usage
 
 ```
-code-churn <repo-path> [options]
+git-code-churn-cli <repo-path> [options]
 
 Options:
   --top <n>        Show top N files (default: 20, or 5 with --functions)
@@ -49,27 +49,27 @@ Options:
 
 **Basic file churn:**
 ```bash
-code-churn ./my-repo
+git-code-churn-cli ./my-repo
 ```
 
 **Last 2 years, TypeScript only, top 10:**
 ```bash
-code-churn ./my-repo --top 10 --since 2024-01-01 --ext ts
+git-code-churn-cli ./my-repo --top 10 --since 2024-01-01 --ext ts
 ```
 
 **Function-level churn for the top 3 most-churned files:**
 ```bash
-code-churn ./my-repo --functions --top 3
+git-code-churn-cli ./my-repo --functions --top 3
 ```
 
 **Focus on a specific directory:**
 ```bash
-code-churn ./my-repo --functions --path src/domain/
+git-code-churn-cli ./my-repo --functions --path src/domain/
 ```
 
 **JSON output for piping or scripting:**
 ```bash
-code-churn ./my-repo --json | jq '.files[0]'
+git-code-churn-cli ./my-repo --json | jq '.files[0]'
 ```
 
 ## Function-level churn

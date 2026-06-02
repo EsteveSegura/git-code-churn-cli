@@ -4,7 +4,7 @@
   "description": "CLI to visualize git file and function churn — surface God Objects, oversized controllers, and poor separation of concerns",
   "type": "module",
   "bin": {
-    "code-churn": "./index.js"
+    "git-code-churn-cli": "./index.js"
   },
   "files": [
     "index.js",
