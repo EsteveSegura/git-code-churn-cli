@@ -1,6 +1,6 @@
 {
   "name": "git-code-churn-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to visualize git file and function churn — surface God Objects, oversized controllers, and poor separation of concerns",
   "type": "module",
   "bin": {
